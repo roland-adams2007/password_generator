@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.bg-dark-gradient {
+    background: linear-gradient(135deg, #1f2937, #111827);
+}
+
+.strength-indicator {
+    height: 6px;
+    transition: width 0.4s ease;
+}
+
+.card-shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-hover:hover {
+    transform: translateY(-3px);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
